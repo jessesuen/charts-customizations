@@ -1,0 +1,10 @@
+rbac:
+  create: false
+
+server:
+  ingress:
+    enabled: true
+    annotations:
+      kubernetes.io/ingress.class: nginx
+    hosts:
+    - prometheus.jesse.dev.argoproj.io

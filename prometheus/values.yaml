@@ -1,6 +1,3 @@
-rbac:
-  create: false
-
 server:
   ingress:
     enabled: true
